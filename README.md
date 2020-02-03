@@ -1,7 +1,7 @@
 # Getting started
 This repository is a basic spring boot application which showcases use of controller, service, repository, model architecture with little application of currency exchange usecases.
 # Before you run
-- import data to your local mysqldb using *currency.sql*
+- import data to your local mysqldb using `currency.sql` located under `src/main/resources`
 - edit mysql connection at application.properties and make sure you have started mysql service
 # Starting the project
 - run `./mvnw install` to start downloading required dependencies . This will run the test as well. If you would like to run tests alone, you can type `./mvnw test`
